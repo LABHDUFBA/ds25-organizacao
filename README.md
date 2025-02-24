@@ -7,9 +7,9 @@ Este repositório público **(organização-ds)** centraliza informações sobre
 - **GitHub Projects (Kanban)**: trabalhamos com um projeto no estilo Kanban para gerenciar o planejamento e a execução das tarefas.  
 - **Repositórios Privados**: teremos diversos repositórios privados conectados ao projeto principal, mantendo o fluxo de trabalho unificado no GitHub.  
 - **Equipes**: atualmente contamos com três equipes:  
-  - [**Suporte GitHub**](#)  
-  - [**Computacional**](#)  
-  - [**Qualitativa**](#)
+  - [**Suporte GitHub**](https://github.com/orgs/LABHDUFBA/teams/suporte-github): @suporte-github  
+  - [**Computacional**](https://github.com/orgs/LABHDUFBA/teams/equipe-computacional): @equipe-computacional
+  - [**Qualitativa**](https://github.com/orgs/LABHDUFBA/teams/equipe-qualitativa): @equipe-qualitativa
 
 Cada equipe tem atribuições específicas e colabora de forma integrada para cumprir os objetivos do projeto.
 
