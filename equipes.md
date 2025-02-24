@@ -11,7 +11,7 @@ lang: pt-BR
 | Leonardo Nascimento | Equipe Computacional, Qualitativa        | [@leofn](https://github.com/leofn)                     | LABHDUFBA |
 | Eric Brasil         | Equipe Computacional, Suporte ao GitHub  | [@ericbrasiln](https://github.com/ericbrasiln)         | LABHDUFBA |
 | Tarssio Barreto     | Equipe Computacional                     | [@tarssioesa](https://github.com/tarssioesa)           | LABHDUFBA |
-| Daniel              | Equipe Computacional                     | CONFIRMAR                                              | LABHDUFBA |
+| Daniel Sena         | Equipe Computacional                     | [@danielosena](https://github.com/danielosena)         | LABHDUFBA |
 | Ricardo Andrade     | Equipe Computacional                     | [@rsandrade](https://github.com/rsandrade)             | LABHDUFBA |
 | Alisson Soares      | Equipe Computacional                     | [@SoaresAlisson](https://github.com/SoaresAlisson)     | LABHDUFBA |
 | Gilberto Sassi      | Equipe Computacional                     | [@gilberto-sassi](https://github.com/gilberto-sassi)   | LABHDUFBA |
