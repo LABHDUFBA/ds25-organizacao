@@ -28,8 +28,3 @@ lang: pt-BR
 | Jonatã Bittencourt  | Equipe Qualitativa                       | [@jonatafbitt](https://github.com/jonatafbitt)         | LABHDUFBA |
 | Gabriely Fraga      | Equipe Qualitativa                       | [@gabrielyfraga](https://github.com/gabrielyfraga)     | LABHDUFBA |
 | Daniel Romero       | Equipe Qualitativa                       | [@romeromab](https://github.cm/romeromab)              | LABHDUFBA |
-| Jefte Batista       | CONFIRMAR                                | [@jeftebatista10](https://github.com/jeftebatista10)   | LABHDUFBA |
-| louisekarczeski     | CONFIRMAR                                | [@louisekarczeski](https://github.com/louisekarczeski) | LABHDUFBA |
-| matcm               | CONFIRMAR                                | [@matcm](https://github.com/matcm)                     | LABHDUFBA |
-| silwalz             | CONFIRMAR                                | [@silwalz](https://github.com/silwalz)                 | LABHDUFBA |
-
