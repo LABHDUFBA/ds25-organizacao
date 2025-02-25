@@ -4,8 +4,13 @@ Este repositório público **(ds25-organização)** centraliza informações sob
 
 ## Estrutura no GitHub
 
-- **GitHub Projects (Kanban)**: trabalhamos com um projeto no estilo Kanban para gerenciar o planejamento e a execução das tarefas.  
+- **GitHub Projects**: trabalhamos com um projeto no estilo Kanban para gerenciar o planejamento e a execução das tarefas. [Link](https://github.com/orgs/LABHDUFBA/projects/10)  
 - **Repositórios Privados**: teremos diversos repositórios privados conectados ao projeto principal, mantendo o fluxo de trabalho unificado no GitHub.  
+    - [ds25-elt](https://github.com/LABHDUFBA/ds25-elt)
+    - [ds25-analise-quali](https://github.com/LABHDUFBA/ds25-analise-quali)
+    - [ds25-analise-quanti](https://github.com/LABHDUFBA/ds25-analise-quanti/)
+    - [ds25-organizacao](https://github.com/LABHDUFBA/ds25-organizacao)
+
 - **Equipes**: atualmente contamos com três equipes:  
   - [**Suporte GitHub**](https://github.com/orgs/LABHDUFBA/teams/suporte-github): @suporte-github  
   - [**Computacional**](https://github.com/orgs/LABHDUFBA/teams/equipe-computacional): @equipe-computacional
@@ -15,10 +20,10 @@ Cada equipe tem atribuições específicas e colabora de forma integrada para cu
 
 ## Fluxo de Trabalho
 
-1. **Planejamento no Kanban**: as tarefas são registradas como *issues* ou *cards* no projeto Kanban do GitHub, onde recebem prioridade e responsáveis.  
+1. **Planejamento no Projeto do Github**: as tarefas são registradas como *issues* ou *cards* no projeto do GitHub, onde recebem prioridade e responsáveis.  
 2. **Desenvolvimento nos Repositórios Privados**: o trabalho efetivo acontece nos repositórios privados, seguindo as boas práticas de versionamento, CI/CD e documentação.  
 3. **Comunicação via Telegram**: utilizamos grupo no Telegram para discussões rápidas, alinhamento diário e atualizações de status.  
-4. **Integração e Revisão**: todas as *issues* fechadas e pull requests aprovadas são refletidas no Kanban, garantindo rastreabilidade e acompanhamento.
+4. **Integração e Revisão**: todas as *issues* fechadas e pull requests aprovadas são refletidas no projeto do Github, garantindo rastreabilidade e acompanhamento.
 
 ## Equipes e Colaboradoras(es)
 
@@ -27,7 +32,7 @@ Para visualizar quem faz parte de cada equipe e seus respectivos perfis GitHub, 
 
 ---
 
-## Contribuindo com Este Repositório
+## Contribuindo com este repositório
 
 Este repositório é público para que qualquer pessoa interessada em contribuir com correções, melhorias na documentação ou sugestões de novas abordagens possa participar.  
 - Você pode abrir uma [*issue*](../../issues) relatando problemas ou sugerindo mudanças.  
