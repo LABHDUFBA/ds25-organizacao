@@ -133,8 +133,10 @@ Isso quer dizer que você vai solicitar a integração dos commits da `nome-da-b
 O final da mensagem, `✔️ Able to merge [...]`, é sinal que o Github **não encontrou conflitos** dos arquivos de `nome-da-branch` com a `main`!
 
 2. Em `Add a title`, adicione um título para seu PR
-3. Em `Add a description`, descreva as mudanças que deseja integrar à `main` [^1]
+3. Em `Add a description`, descreva as mudanças que deseja integrar à `main` 
 4. Clique em `Create pull request`
+
+![PR options](imgs/gh08.jpeg)
 
 ---
 
@@ -148,7 +150,7 @@ Dentro do Pull Request, na coluna à direita existem algumas opções que devem 
 4. Projects: adicione o projeto ao qual o PR está relacionado: *Desinformação e Saúde - 2025*
 5. Milestone: adicione o marco ao qual o PR está relacionado
 
-![PR options](imgs/gh08.jpeg)
+![PR options](imgs/gh09.jpeg)
 
 Após a vinculação do PR com o projeto, novas opções aparecerão e devem ser corretamente preenchidas:
 
@@ -159,7 +161,7 @@ Após a vinculação do PR com o projeto, novas opções aparecerão e devem ser
 5. Data de início: adicione a data de início do PR
 6. Data de término: adicione a data de término do PR
 
-![PR options](imgs/gh09.jpeg)
+![PR options](imgs/gh10.jpeg)
 
 Aguarde o feedback e, caso tudo esteja ok, seus commits serão aceitos!
 
