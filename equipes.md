@@ -28,4 +28,4 @@ lang: pt-BR
 | Jonatã Bittencourt  | Equipe Qualitativa                              | [@jonatafbitt](https://github.com/jonatafbitt)         | LABHDUFBA |
 | Gabriely Fraga      | Equipe Qualitativa                              | [@gabrielyfraga](https://github.com/gabrielyfraga)     | LABHDUFBA |
 | Daniel Romero       | Equipe Qualitativa                              | [@romeromab](https://github.com/romeromab)             | LABHDUFBA |
-| Matheus da Costa    | Equipe QUalitativa                              | [@matcm](https://github.com/matcm)                     | LABHDUFBA |
+| Matheus da Costa    | Equipe Qualitativa                              | [@matcm](https://github.com/matcm)                     | LABHDUFBA |
