@@ -6,7 +6,7 @@ date: today
 lang: pt-BR
 ---
 
-| Pesquisador(a)      | Equipes                                         | Perfil do GitHub                                       | Unidade    |
+| Pesquisador(a)      | Equipes                                         | Perfil do GitHub                                       |  Unidade  |
 |---------------------|-------------------------------------------------|--------------------------------------------------------|-----------|
 | Leonardo Nascimento | Equipe Computacional, Qualitativa, Quantitativa | [@leofn](https://github.com/leofn)                     | LABHDUFBA |
 | Eric Brasil         | Equipe Computacional, Suporte ao GitHub         | [@ericbrasiln](https://github.com/ericbrasiln)         | LABHDUFBA |
