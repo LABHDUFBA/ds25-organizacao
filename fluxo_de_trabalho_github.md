@@ -180,3 +180,44 @@ Após a revisão e aprovação do PR, você pode fazer o `merge` dos commits na 
 - Não delete o branch, pois ele pode ser útil para futuras referências.
 
 ---
+
+## Atualizar sua branch para o estado atual do `main`
+
+Caso sua branch esteja desatualizada em relação à `main`, é necessário atualizá-la antes de continuar trabalhando.  
+
+Isso é muito importante para evitar conflitos e manter a integridade do código!
+
+### ** Verificar se sua branch está desatualizada**  
+
+- Acesse o repositório e selecione a sua branch no botão `main`;  
+- Se aparecer a mensagem **"This branch is X commits behind main"**, significa que há mudanças na `main` que ainda não foram incorporadas à sua branch;  
+- Clique no número azul para visualizar as diferenças.  
+
+![Branch behind](imgs/gh11.jpeg)
+
+---
+
+### ** Criar um Pull Request para atualização**  
+
+1. Na tela de comparação, verifique se:  
+   - **Base** está configurado para sua branch (exemplo: `eric-updates`).  
+   - **Compare** está configurado para `main`.  
+2. Se não houver conflitos, a mensagem **"Able to merge"** será exibida.  
+3. Clique em **"Create pull request"**.  
+
+![Create PR](imgs/gh12.jpeg)
+
+---
+
+### ** Nomear e realizar o merge do Pull Request**  
+
+1. Dê um nome claro ao PR, como **"Atualiza para o estado atual do main"**;  
+2. Clique em **"Create pull request"** para confirmar;  
+3. Confira se o PR apresenta a frase "<seu nome> wants to merge X commits into main from <sua branch>";  
+4. Clique em **"Merge pull request"**
+
+![Merge PR](imgs/gh13.jpeg)
+
+Após o merge, sua branch estará sincronizada com a `main` e pronta para novas modificações! 🚀  
+
+---
