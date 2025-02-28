@@ -15,6 +15,7 @@ Este repositório público **(ds25-organização)** centraliza informações sob
   - [**Suporte GitHub**](https://github.com/orgs/LABHDUFBA/teams/suporte-github): @suporte-github  
   - [**Computacional**](https://github.com/orgs/LABHDUFBA/teams/equipe-computacional): @equipe-computacional
   - [**Qualitativa**](https://github.com/orgs/LABHDUFBA/teams/equipe-qualitativa): @equipe-qualitativa
+  - [**Quantitativa**](https://github.com/orgs/LABHDUFBA/teams/equipe-quantitativa): @equipe-quantitativa
 
 Cada equipe tem atribuições específicas e colabora de forma integrada para cumprir os objetivos do projeto.
 
