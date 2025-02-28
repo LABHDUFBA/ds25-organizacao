@@ -9,11 +9,11 @@ lang: pt-BR
 | Pesquisador(a)      | Equipes                                         | Perfil do GitHub                                       |  Unidade  |
 |---------------------|-------------------------------------------------|--------------------------------------------------------|-----------|
 | Leonardo Nascimento | Equipe Computacional, Qualitativa, Quantitativa | [@leofn](https://github.com/leofn)                     | LABHDUFBA |
-| Eric Brasil         | Equipe Computacional, Suporte ao GitHub         | [@ericbrasiln](https://github.com/ericbrasiln)         | LABHDUFBA |
+| Eric Brasil         | Equipe Computacional, Quanti, Suporte ao GitHub | [@ericbrasiln](https://github.com/ericbrasiln)         | LABHDUFBA |
 | Tarssio Barreto     | Equipe Computacional, Quantitativa              | [@tarssioesa](https://github.com/tarssioesa)           | LABHDUFBA |
 | Daniel Sena         | Equipe Computacional                            | [@danielosena](https://github.com/danielosena)         | LABHDUFBA |
 | Ricardo Andrade     | Equipe Computacional                            | [@rsandrade](https://github.com/rsandrade)             | LABHDUFBA |
-| Alisson Soares      | Equipe Computacional                            | [@SoaresAlisson](https://github.com/SoaresAlisson)     | LABHDUFBA |
+| Alisson Soares      | Equipe Computacional, Quantitativa              | [@SoaresAlisson](https://github.com/SoaresAlisson)     | LABHDUFBA |
 | Gilberto Sassi      | Equipe Computacional, Quantitativa              | [@gilberto-sassi](https://github.com/gilberto-sassi)   | LABHDUFBA |
 | Alan Mocellim       | Equipe Qualitativa                              | [@mocellim](https://github.com/mocellim)               | LABHDUFBA |
 | Rosana Moore        | Equipe Qualitativa                              | [@rosanamoore](https://github.com/rosanamoore)         | LABHDUFBA |
