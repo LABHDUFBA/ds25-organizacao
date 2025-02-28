@@ -180,3 +180,63 @@ Após a revisão e aprovação do PR, você pode fazer o `merge` dos commits na 
 - Não delete o branch, pois ele pode ser útil para futuras referências.
 
 ---
+
+## Atualizar sua branch para o estado atual do `main`
+
+Caso sua branch esteja desatualizada em relação à `main`, é necessário atualizá-la antes de continuar trabalhando.  
+
+Isso é muito importante para evitar conflitos e manter a integridade do código!
+
+### **Verificar se sua branch está desatualizada**  
+
+- Acesse o repositório e selecione a sua branch no botão `main`;  
+- Se aparecer a mensagem **"This branch is X commits behind main"**, significa que há mudanças na `main` que ainda não foram incorporadas à sua branch;  
+- Clique no número azul para visualizar as diferenças.  
+
+![Branch behind](imgs/gh11.jpeg)
+
+---
+
+### **Criar um Pull Request para atualização**  
+
+1. Na tela de comparação, verifique se:  
+   - **Base** está configurado para sua branch (exemplo: `eric-updates`).  
+   - **Compare** está configurado para `main`.  
+2. Se não houver conflitos, a mensagem **"Able to merge"** será exibida.  
+3. Clique em **"Create pull request"**.  
+
+![Create PR](imgs/gh12.jpeg)
+
+---
+
+### **Nomear e realizar o merge do Pull Request**  
+
+1. Dê um nome claro ao PR, como **"Atualiza para o estado atual do main"**;  
+2. Clique em **"Create pull request"** para confirmar;  
+3. Confira se o PR apresenta a frase "<seu nome> wants to merge X commits into main from <sua branch>";  
+4. Clique em **"Merge pull request"**
+
+![Merge PR](imgs/gh13.jpeg)
+
+Após o merge, sua branch estará sincronizada com a `main` e pronta para novas modificações! 🚀  
+
+---
+
+## **Como Verificar as Mudanças em um Pull Request**
+
+1. **Identifique o Pull Request**: Ao identificar um **Pull Request**, você pode ver exatamente **quais mudanças foram feitas** e **em qual região do documento**.
+   
+2. **Analisando as mudanças**: Clique em **"Files Changed"** para ver as alterações feitas e decidir se concorda com as novidades que estão aguardando sua aprovação.
+
+   ![image](https://github.com/user-attachments/assets/78f42a9c-2c3f-4d4f-b943-2e696cd80349)
+
+3. **Verifique as alterações**: Agora, você pode ver **precisamente o que foi alterado**. No exemplo mostrado, **41 novas linhas de código** foram adicionadas a partir da linha **183**.
+
+4. **Visualizando as mudanças**: O que foi **adicionado** ao código aparece **em verde**, enquanto o que foi **removido** aparece **em vermelho**. Neste caso, **apenas adições** foram feitas, então você verá **apenas a cor verde**.
+
+![image](https://github.com/user-attachments/assets/7a81952f-a52f-4b1a-978d-25418e55aada)
+
+
+5. **Arquivos Adicionados ou Removidos**: É possível contemplar também a informação de que, aqui, foram adicionadas 3 novas imagens nesta seção. A seguir, apresentamos-lhe uma das imagens novas, que foi inserida no arquivo.md em questão.
+
+![image](https://github.com/user-attachments/assets/d5b1da7b-b9d9-4676-8837-876a935f40dd)
