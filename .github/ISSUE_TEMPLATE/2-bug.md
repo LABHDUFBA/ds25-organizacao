@@ -69,7 +69,7 @@ Adicione qualquer outro contexto relevante sobre o problema, logs de erro ou sol
 
 Marque os seguintes dados relativos ao projeto na **aba lateral direita** conforme a imagem:
 
-![](projects_meta.png)
+![](https://raw.githubusercontent.com/LABHDUFBA/ds25-organizacao/refs/heads/main/.github/ISSUE_TEMPLATE/projects_meta.png):
 
 ### **Status**
 
