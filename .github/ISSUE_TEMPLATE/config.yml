@@ -1,0 +1,9 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "Discuções"
+    url: https://github.com/LABHDUFBA/ds25-organizacao/discussions
+    about: Para preguntas sobre sobre o projeto ou o repositorio crie um tópico na DISCUSSÃO
+  - name: "Contato com o LABHDUFBA"
+    url: https://labhdufba.github.io/contact/
+    about: Para contato com o LABHDUFBA acesse o site do laboratório.
+
