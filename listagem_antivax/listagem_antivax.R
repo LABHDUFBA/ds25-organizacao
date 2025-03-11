@@ -43,37 +43,37 @@ posts <- tibble(
 
   # Instagram Bruto
 
-instagram_bruto_1 <- read.csv(file = "dados/Listagem social media Antivax - Instagram.csv")
+instagram_bruto_1 <- read.csv(file = "dados/brutos/Listagem social media Antivax - Instagram.csv")
 
-instagram_bruto_2 <- read.csv(file = "dados/Listagem social media Antivax - Instagram 2.csv")
+instagram_bruto_2 <- read.csv(file = "dados/brutos/Listagem social media Antivax - Instagram 2.csv")
 
 instagram_bruto <- bind_rows(instagram_bruto_1, instagram_bruto_2)
 
   # Facebook Bruto
 
-facebook_bruto_1 <- read.csv(file = "dados/Listagem social media Antivax - Facebook.csv")
+facebook_bruto_1 <- read.csv(file = "dados/brutos/Listagem social media Antivax - Facebook.csv")
 
-facebook_bruto_2 <- read.csv(file = "dados/Listagem social media Antivax - Facebook 2.csv")
+facebook_bruto_2 <- read.csv(file = "dados/brutos/Listagem social media Antivax - Facebook 2.csv")
 
 facebook_bruto <- bind_rows(facebook_bruto_1, facebook_bruto_2)
 
   # TikTok Bruto
 
-tiktok_bruto <- read.csv(file = "dados/Listagem social media Antivax - Tiktok.csv")
+tiktok_bruto <- read.csv(file = "dados/brutos/Listagem social media Antivax - Tiktok.csv")
 
   # YouTube Bruto
 
-youtube_bruto_1 <- read.csv(file = "dados/Listagem social media Antivax - Youtube.csv")
+youtube_bruto_1 <- read.csv(file = "dados/brutos/Listagem social media Antivax - Youtube.csv")
 
-youtube_bruto_2 <- read.csv(file = "dados/Listagem social media Antivax - Youtube 2.csv")
+youtube_bruto_2 <- read.csv(file = "dados/brutos/Listagem social media Antivax - Youtube 2.csv")
 
 youtube_bruto <- bind_rows(youtube_bruto_1, youtube_bruto_2)
 
   # Kwai Bruto
 
-kwai_bruto_1 <- read.csv(file = "dados/Listagem social media Antivax - Kwai.csv")
+kwai_bruto_1 <- read.csv(file = "dados/brutos/Listagem social media Antivax - Kwai.csv")
 
-kwai_bruto_2 <- read.csv(file = "dados/Listagem social media Antivax - Kwai 2.csv")
+kwai_bruto_2 <- read.csv(file = "dados/brutos/Listagem social media Antivax - Kwai 2.csv")
 
 kwai_bruto <- bind_rows(kwai_bruto_1, kwai_bruto_2)
 
@@ -262,7 +262,7 @@ cria_tibble_posts <- function(dataset) {
 
 }
 
-  # Criando Perfis
+  # Criando e exportando Perfis
 
 perfis_facebook <- cria_tibble_perfis(facebook, yt = F)
 perfis_instagram <- cria_tibble_perfis(instagram, yt = F)
@@ -270,13 +270,17 @@ perfis_kwai <- cria_tibble_perfis(kwai, yt = F)
 perfis_tiktok <- cria_tibble_perfis(tiktok, yt = F)
 perfis_youtube <- cria_tibble_perfis(youtube, yt = T)
 
-  # Criando Posts
+write.csv(file = "dados/resultados/perfis_facebook.csv")
+
+  # Criando e exportando Posts
 
 posts_facebook <- cria_tibble_posts(facebook)
 posts_instagram <- cria_tibble_posts(instagram)
 posts_kwai <- cria_tibble_posts(kwai)
 posts_tiktok <- cria_tibble_posts(tiktok)
 posts_youtube <- cria_tibble_posts(youtube)
+
+write.csv(file = "dados/resultados/posts_facebook.csv")
 
 # ////// #
 
@@ -376,6 +380,9 @@ infos_kwai <- cria_categorizacoes(dataset = kwai)
 
 infos_youtube <- cria_categorizacoes(dataset = youtube)
 
+  # Exportando "infos_gerais"
+
+write.csv(file = "dados/resultados/infos_gerais.csv")
 
 # ////// #
 
@@ -470,12 +477,12 @@ exibir_graficos <- function(dataset, nome_rede) {
 
 grafico_instagram <- exibir_graficos(infos_facebook, "Facebook")
 
-ggsave(filename = "listagem_instagram.png", plot = grafico_facebook,
+ggsave(filename = "dados/resultados/listagem_instagram.png", plot = grafico_facebook,
        device = "png", width = 10, height = 5, units = "in", dpi = 320)
 
     # Instagram
 
 grafico_instagram <- exibir_graficos(infos_instagram, "Instagram")
 
-ggsave(filename = "listagem_instagram.png", plot = grafico_instagram,
+ggsave(filename = "dados/resultados/.png", plot = grafico_instagram,
        device = "png", width = 10, height = 5, units = "in", dpi = 320)
