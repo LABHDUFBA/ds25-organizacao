@@ -9,31 +9,31 @@ library(scales)
 
 # Definindo variáveis dos tibbles #----
 
-  # Perfis
-
-perfis <- tibble(
-  perfil = "",
-  link_do_perfil = "",
-  antivax = "",
-  provax = "",
-  conspiracionista = "",
-  negacionista = "",
-  profissao = "")
-
-  # Posts
-
-posts <- tibble(
-  link_de_post = "",
-  conteudo_de_post = "",
-  antivax = "",
-  provax = "",
-  conspiracionista = "",
-  negacionista = "",
-  profissao = "")
-
 # Após algumas discussões, decidimos alterar as variáveis da planilha.
 
 # Por isso, provax receberá NA's, e outras foram excluídas — como "categoria_profissao_perfil" que, apesar do péssimo nome, dizia se a profissão se refere ao perfil ou alguém que aparece no post selecionado.
+
+  # Perfis
+
+# perfis <- tibble(
+#   perfil = "",
+#   link_do_perfil = "",
+#   antivax = "",
+#   provax = "",
+#   conspiracionista = "",
+#   negacionista = "",
+#   profissao = "")
+
+  # Posts
+
+# posts <- tibble(
+#   link_de_post = "",
+#   conteudo_de_post = "",
+#   antivax = "",
+#   provax = "",
+#   conspiracionista = "",
+#   negacionista = "",
+#   profissao = "")
 
 # ////// #
 
