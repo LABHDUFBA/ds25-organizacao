@@ -31,7 +31,7 @@ posts <- tibble(
   negacionista = "",
   profissao = "")
 
-# Após algumas discussões, decidimos alterar as variáveis da planilha. 
+# Após algumas discussões, decidimos alterar as variáveis da planilha.
 
 # Por isso, provax receberá NA's, e outras foram excluídas — como "categoria_profissao_perfil" que, apesar do péssimo nome, dizia se a profissão se refere ao perfil ou alguém que aparece no post selecionado.
 
@@ -99,8 +99,6 @@ nomes_colunas <- nomes_brutos %>%
   str_replace_all("_+", "_") %>% # Substitui múltiplos "_" por um só
   str_replace("_$", "") # Tira essa porra do final
 
-rm(nomes_brutos)
-
 nomes_colunas_yt <- nomes_colunas
 
 nomes_colunas_yt <- append(nomes_colunas_yt, "nome_do_usuario", after = 1)
@@ -123,7 +121,7 @@ youtube_bruto[,c(4:6, 8, 11:13)] <- lapply(youtube_bruto[,c(4:6, 8, 11:13)], as.
 
 kwai_bruto[,c(3:5, 7, 10:12)] <- lapply(kwai_bruto[, c(3:5, 7, 10:12)], as.logical)
 
-  # Regex para links
+  # Regex
 
     # Facebook
 
@@ -173,6 +171,14 @@ youtube_bruto$link_do_perfil <- youtube_bruto$link_do_perfil %>%
   str_replace_all("/video", "") %>%
   str_replace_all("/+$", "")
 
+    # Kwai
+
+  teste <- kwai_bruto
+
+  kwai_bruto$perfil <- kwai_bruto$perfil %>%
+    str_remove_all(" @.*") %>%
+    str_remove_all("^@")
+
   # Retirando POSTS repetidos
 
 limpar_dataset <- function(dataset) {
@@ -221,7 +227,8 @@ cria_tibble_perfis <- function(dataset, yt) {
       profissao = dataset$categoria_profissao,
       deletar = dataset$categoria_profissao_do_perfil
     ) %>%
-      filter(deletar == TRUE)# %>%     select(-deletar)
+      filter(deletar == TRUE) %>%
+      select(-deletar)
 
   } else {
 
@@ -256,13 +263,14 @@ cria_tibble_posts <- function(dataset) {
     profissao = dataset$categoria_profissao,
     deletar = dataset$categoria_profissao_do_perfil,
   ) %>%
-    filter(deletar == FALSE | is.na(deletar))# %>%     select(-deletar)
+    filter(deletar == FALSE | is.na(deletar)) %>%
+    select(-deletar)
 
   return(resultado)
 
 }
 
-  # Criando e exportando Perfis
+  # Criando Perfis
 
 perfis_facebook <- cria_tibble_perfis(facebook, yt = F)
 perfis_instagram <- cria_tibble_perfis(instagram, yt = F)
@@ -270,9 +278,15 @@ perfis_kwai <- cria_tibble_perfis(kwai, yt = F)
 perfis_tiktok <- cria_tibble_perfis(tiktok, yt = F)
 perfis_youtube <- cria_tibble_perfis(youtube, yt = T)
 
-write.csv(file = "dados/resultados/perfis_facebook.csv")
+  # Exportando Perfis
 
-  # Criando e exportando Posts
+write.csv(perfis_facebook, file = "dados/resultados/perfis_facebook.csv", row.names = FALSE)
+write.csv(perfis_instagram, file = "dados/resultados/perfis_instagram.csv", row.names = FALSE)
+write.csv(perfis_kwai, file = "dados/resultados/perfis_kwai.csv", row.names = FALSE)
+write.csv(perfis_tiktok, file = "dados/resultados/perfis_tiktok.csv", row.names = FALSE)
+write.csv(perfis_youtube, file = "dados/resultados/perfis_youtube.csv", row.names = FALSE)
+
+  # Criando Posts
 
 posts_facebook <- cria_tibble_posts(facebook)
 posts_instagram <- cria_tibble_posts(instagram)
@@ -280,7 +294,13 @@ posts_kwai <- cria_tibble_posts(kwai)
 posts_tiktok <- cria_tibble_posts(tiktok)
 posts_youtube <- cria_tibble_posts(youtube)
 
-write.csv(file = "dados/resultados/posts_facebook.csv")
+  # Exportando Posts
+
+write.csv(posts_facebook, file = "dados/resultados/posts_facebook.csv", row.names = FALSE)
+write.csv(posts_instagram, file = "dados/resultados/posts_instagram.csv", row.names = FALSE)
+write.csv(posts_kwai, file = "dados/resultados/posts_kwai.csv", row.names = FALSE)
+write.csv(posts_tiktok, file = "dados/resultados/posts_tiktok.csv", row.names = FALSE)
+write.csv(posts_youtube, file = "dados/resultados/posts_youtube.csv", row.names = FALSE)
 
 # ////// #
 
@@ -311,13 +331,13 @@ cria_categorizacoes <- function(dataset) {
 
   v_saude <- "medic|terapeut|enfermeir|cirurgi|farmac|neuroci|psiquiatr|psico|dentista|pediatra" # profissões de saúde
 
-  v_saude_prof <- "medic" # profissões de saúde
+  v_saude_profz <- "medic" # profissões médicas
 
   v_educacao <- "professor|tutor|educador|pedagogo" # profissões de educação
 
   v_comunicacao <- "jornalista|escritor|apresentador|comunicador|redator|noticia|publicitari|editor" # profissões de comunicação
 
-  v_politica <- "senador|deputad|candidat|vereador|parlamentar" # profissões políticas
+  v_politica <- "senador|deputad|candidat|vereador|parlamentar|politic" # profissões políticas
 
   v_conteudo_digital <- "conteudo|blogueir|influencer|youtuber|streamer|tiktoker|podcaster" # profissões de "conteúdo digital"
 
@@ -352,15 +372,15 @@ cria_categorizacoes <- function(dataset) {
         TRUE ~ "Outros" # Profissões diversas
       ),
 
-      profissao_reduzida = case_when( # "Ajuste fino" das categorias
+      profissao_reduzida = case_when( # Profissões reduzidas
 
-        str_detect(categoria_profissao, v_saude_prof) ~ "medico",
+        str_detect(categoria_profissao, v_saude_profz) ~ "medico",
         str_detect(categoria_profissao, v_politica) ~ "politico",
         str_detect(categoria_profissao, v_conteudo_digital) ~ "criador de conteudo",
         TRUE ~ categoria_profissao  # Mantém o nome original caso não seja encontrado um grupo
       )) %>%
-    rename(profissao = categoria_profissao) %>%
-    relocate(profissao_reduzida, .after = profissao)
+    rename(profissao_especifica = categoria_profissao) %>%
+    relocate(profissao_reduzida, .after = profissao_especifica)
 
   return(resultado)
 
@@ -382,18 +402,7 @@ infos_youtube <- cria_categorizacoes(dataset = youtube)
 
   # Exportando "infos_gerais"
 
-write.csv(file = "dados/resultados/infos_gerais.csv")
-
-# ////// #
-
-# Removendo dados desnecessários #----
-
-rm(list = setdiff(ls(), c(
-  "facebook", "instagram", "tiktok", "youtube", "kwai",
-  "limpar_dataset", "profissoes",
-  "perfis_facebook", "perfis_instagram", "perfis_kwai", "perfis_tiktok", "perfis_youtube",
-  "posts_facebook", "posts_instagram", "posts_kwai", "posts_tiktok", "posts_youtube"
-)))
+write.csv(infos_gerais, file = "dados/resultados/infos_gerais.csv", row.names = FALSE)
 
 # ////// #
 
@@ -475,14 +484,14 @@ exibir_graficos <- function(dataset, nome_rede) {
 
     # Facebook
 
-grafico_instagram <- exibir_graficos(infos_facebook, "Facebook")
+grafico_facebook <- exibir_graficos(infos_facebook, "Facebook")
 
-ggsave(filename = "dados/resultados/listagem_instagram.png", plot = grafico_facebook,
+ggsave(filename = "dados/resultados/listagem_facebook.png", plot = grafico_facebook,
        device = "png", width = 10, height = 5, units = "in", dpi = 320)
 
     # Instagram
 
 grafico_instagram <- exibir_graficos(infos_instagram, "Instagram")
 
-ggsave(filename = "dados/resultados/.png", plot = grafico_instagram,
+ggsave(filename = "dados/resultados/listagem_instagram.png", plot = grafico_instagram,
        device = "png", width = 10, height = 5, units = "in", dpi = 320)
