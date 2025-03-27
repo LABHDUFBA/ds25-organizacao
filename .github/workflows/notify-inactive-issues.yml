@@ -2,7 +2,7 @@ name: 🔄 Notificação de Issues Inativas
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # Executa diariamente às 12h UTC
+    - cron: '0 16 * * *'  # Executa diariamente às 16h UTC
 
 permissions:
   issues: write  # Permite escrever em issues
@@ -15,11 +15,15 @@ jobs:
         uses: actions/stale@v9
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          days-before-stale: 10  # Define inatividade após 10 dias
+          days-before-stale: 7  # Define inatividade após 7 dias
           days-before-close: 30  # Opcional: fecha a issue após 30 dias sem resposta
           stale-issue-label: "inativa"  # Adiciona a label "inativa" às issues sem atividade
           stale-issue-message: |
-            🚨 Esta issue está inativa há mais de 10 dias.  
-            @${{ github.event.issue.assignee }} por favor, atualize o status ou comente para evitar o fechamento automático.
+            🚨 Esta issue está inativa há mais de 7 dias.
+            
+            Responsável atribuído, por favor, atualize ou comente para evitar o fechamento automático.  
+            Se você é o responsável, essa mensagem é para você. 👀
+            
+            🔔 @LABHDUFBA/suporte-github
           close-issue-message: |
             ⚠️ Esta issue foi fechada automaticamente por inatividade. Se necessário, reabra ou crie uma nova.
