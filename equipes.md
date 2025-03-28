@@ -29,3 +29,16 @@ lang: pt-BR
 | Gabriely Fraga      | Equipe Qualitativa                              | [@gabrielyfraga](https://github.com/gabrielyfraga)     | LABHDUFBA |
 | Daniel Romero       | Equipe Qualitativa                              | [@romeromab](https://github.com/romeromab)             | LABHDUFBA |
 | Matheus da Costa    | Equipe Qualitativa                              | [@matcm](https://github.com/matcm)                     | LABHDUFBA |
+| Márcio Natividade   | Equipe Quantitativa                                                                                      |  ISCUFBA  |
+| Samilly Miranda     | Equipe Quantitativa                                                                                      |  ISCUFBA  |
+| Marcele Paim        | Equipe Qualitativa                                                                                       |  ISCUFBA  |
+| Bruno Olivatti      | Equipe Qualitativa                                                                                       |  ISCUFBA  |
+| Vinicius Mendes     | Equipe Avaliação de Impacto                                                                              |  ISCUFBA  |
+| Kionna Bernardes    | Equipe Avaliação de Impacto                                                                              |  ISCUFBA  |
+| Maria Paula Caldas  | Equipe Qualitativa                              | [@MariaPaulaPC](https://github.com/MariaPaulaPC)       |  ISCUFBA  |
+| Arthur Lopes        | Equipe Qualitativa                              | [@feusagittaire](https://github.com/feusagittaire)     |  ISCUFBA  |
+| Luca Moura          | Equipe Qualitativa                                                                                       |  ISCUFBA  |
+| Juracy Bertolo      | Equipe Computacional                                                                                     |  ISCUFBA  |
+| Isnan Ferreira      | Equipe Computacional                            | [@IsnanFM](https://github.com/IsnanFM)                 |  ISCUFBA  |
+| Émile Reis          | Equipe Qualitativa                                                                                       |  ISCUFBA  |
+| Jemima Rangel       | Equipe Qualitativa                                                                                       |  ISCUFBA  |
