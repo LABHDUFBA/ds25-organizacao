@@ -30,15 +30,15 @@ lang: pt-BR
 | Daniel Romero       | Equipe Qualitativa                              | [@romeromab](https://github.com/romeromab)             | LABHDUFBA |
 | Matheus da Costa    | Equipe Qualitativa                              | [@matcm](https://github.com/matcm)                     | LABHDUFBA |
 | Márcio Natividade   | Equipe Quantitativa                             | [nidentificado]                                        |  ISCUFBA  |
-| Samilly Miranda     | Equipe Quantitativa                                                                                      |  ISCUFBA  |
-| Marcele Paim        | Equipe Qualitativa                                                                                       |  ISCUFBA  |
-| Bruno Olivatti      | Equipe Qualitativa                                                                                       |  ISCUFBA  |
-| Vinicius Mendes     | Equipe Avaliação de Impacto                                                                              |  ISCUFBA  |
-| Kionna Bernardes    | Equipe Avaliação de Impacto                                                                              |  ISCUFBA  |
+| Samilly Miranda     | Equipe Quantitativa                             | [nidentificado]                                        |  ISCUFBA  |
+| Marcele Paim        | Equipe Qualitativa                              | [nidentificado]                                        |  ISCUFBA  |
+| Bruno Olivatti      | Equipe Qualitativa                              | [nidentificado]                                        |  ISCUFBA  |
+| Vinicius Mendes     | Equipe Avaliação de Impacto                     | [nidentificado]                                        |  ISCUFBA  |
+| Kionna Bernardes    | Equipe Avaliação de Impacto                     | [nidentificado]                                        |  ISCUFBA  |
 | Maria Paula Caldas  | Equipe Qualitativa                              | [@MariaPaulaPC](https://github.com/MariaPaulaPC)       |  ISCUFBA  |
 | Arthur Lopes        | Equipe Qualitativa                              | [@feusagittaire](https://github.com/feusagittaire)     |  ISCUFBA  |
-| Luca Moura          | Equipe Qualitativa                                                                                       |  ISCUFBA  |
-| Juracy Bertolo      | Equipe Computacional                                                                                     |  ISCUFBA  |
+| Luca Moura          | Equipe Qualitativa                              | [nidentificado]                                        |  ISCUFBA  |
+| Juracy Bertolo      | Equipe Computacional                            | [nidentificado]                                        |  ISCUFBA  |
 | Isnan Ferreira      | Equipe Computacional                            | [@IsnanFM](https://github.com/IsnanFM)                 |  ISCUFBA  |
-| Émile Reis          | Equipe Qualitativa                                                                                       |  ISCUFBA  |
-| Jemima Rangel       | Equipe Qualitativa                                                                                       |  ISCUFBA  |
+| Émile Reis          | Equipe Qualitativa                              | [nidentificado]                                        |  ISCUFBA  |
+| Jemima Rangel       | Equipe Qualitativa                              | [nidentificado]                                        |  ISCUFBA  |
