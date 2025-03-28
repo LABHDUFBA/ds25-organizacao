@@ -29,7 +29,7 @@ lang: pt-BR
 | Gabriely Fraga      | Equipe Qualitativa                              | [@gabrielyfraga](https://github.com/gabrielyfraga)     | LABHDUFBA |
 | Daniel Romero       | Equipe Qualitativa                              | [@romeromab](https://github.com/romeromab)             | LABHDUFBA |
 | Matheus da Costa    | Equipe Qualitativa                              | [@matcm](https://github.com/matcm)                     | LABHDUFBA |
-| Márcio Natividade   | Equipe Quantitativa                                                                                      |  ISCUFBA  |
+| Márcio Natividade   | Equipe Quantitativa                             | [nidentificado]                                        |  ISCUFBA  |
 | Samilly Miranda     | Equipe Quantitativa                                                                                      |  ISCUFBA  |
 | Marcele Paim        | Equipe Qualitativa                                                                                       |  ISCUFBA  |
 | Bruno Olivatti      | Equipe Qualitativa                                                                                       |  ISCUFBA  |
