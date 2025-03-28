@@ -38,7 +38,7 @@ lang: pt-BR
 | Maria Paula Caldas  | Equipe Qualitativa                              | [@MariaPaulaPC](https://github.com/MariaPaulaPC)       |  ISCUFBA  |
 | Arthur Lopes        | Equipe Qualitativa                              | [@feusagittaire](https://github.com/feusagittaire)     |  ISCUFBA  |
 | Luca Moura          | Equipe Qualitativa                              | [nidentificado]                                        |  ISCUFBA  |
-| Juracy Bertolo      | Equipe Computacional                            | [nidentificado]                                        |  ISCUFBA  |
+| Juracy Bertolo      | Equipe Computacional                            | [@juracyjr](https://github.com/juracyjr)               |  ISCUFBA  |
 | Isnan Ferreira      | Equipe Computacional                            | [@IsnanFM](https://github.com/IsnanFM)                 |  ISCUFBA  |
 | Émile Reis          | Equipe Qualitativa                              | [nidentificado]                                        |  ISCUFBA  |
 | Jemima Rangel       | Equipe Qualitativa                              | [nidentificado]                                        |  ISCUFBA  |
